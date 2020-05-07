@@ -40,7 +40,7 @@
    c. Verify Zookeeper is healthy
        docker-compose logs kafka | grep -i started
 
-4. Test Kafka and Zookeeper Emv.
+4. Test Kafka and Zookeeper Env.
    a. Get into Docker container 
        docker exec -it kafka bash
    
